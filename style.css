@@ -1,0 +1,247 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav{
+    background-color: rgb(235, 230, 230);
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+nav li{
+    list-style-type: none;
+    margin: 0px 15px;
+}
+nav a{
+    text-decoration: none;
+    color: gray;
+}
+nav a:hover{
+    text-decoration: none;
+    color: gray;
+    letter-spacing: 3px;
+    transition: 1s;
+}
+.border a{
+    border: 1.5px rgb(70, 70, 70) solid;
+    padding: 6px;
+    border-radius: 5px;
+    color: rgb(70, 70, 70);
+}
+.border a:hover{
+    border: 1.5px rgb(70, 70, 70) solid;
+    padding: 6px;
+    border-radius: 5px;
+    color:aliceblue;
+    background-color: rgb(70, 70, 70);
+    transition: 1s;
+}
+.login a{
+    border: 1.5px rgb(44, 44, 255) solid;
+    border-radius: 10%;
+    padding: 6px;
+    color: rgb(44, 44, 255);
+
+}
+.login a:hover{
+    border: 1.5px aliceblue solid;
+    padding: 6px;
+    border-radius: 10%;
+    color:aliceblue;
+    background-color: rgb(44, 44, 255);
+    transition: 1s;
+}
+.ri{
+    display: flex;
+}
+.ri span{
+    color: blue;
+}
+.flot{
+    width: 50%;
+    float: left;
+    padding: 80px;
+}
+.flot h2{
+    font-size: 35px;
+}
+.flot p{
+    margin: 20px 0px;
+    color: gray;
+}
+.info{
+    border: 1.5px rgb(44, 44, 255) solid;
+    border-radius: 5px;
+    margin: 0px 5px 0px 0px;
+    padding: 6px;
+    font-weight: 700;
+    color: rgb(44, 44, 255);
+    background-color: white;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+}
+.info:hover{
+    color: white;
+    background-color: rgb(44, 44, 255);
+    transition: 1s;
+}
+.video{
+    border: 1.5px black solid;
+    border-radius: 5px;
+    padding: 6px;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+}
+.video:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+.three{
+    text-align: center;
+    width: 33.3333;
+    float: left;
+    display: block;
+    margin: 0px 10px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.three p{
+    color: gray;
+    text-align: left;
+    width: 70%;
+}
+.parent{
+    padding: 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.this{
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    margin: 20px;
+    padding: 60px;
+}
+.left2{
+    width: 50%;
+}
+.right2 h2{
+    font-size: 37px;
+    margin-bottom: 20px;
+}
+.right2 h2 span{
+    color: blue;
+}
+.right2 p{
+    width: 85%;
+    color: gray;
+    margin-bottom: 20px;
+}
+.w{
+    width: 50%;
+    float: left;
+}
+.h3{
+    color: gray; 
+    text-transform: uppercase;
+    text-align: center;
+}
+.h2{
+    text-align: center;
+    font-size: 37px;
+    margin: 10px;
+}
+.h2 span{
+    color: blue;
+}
+.three2{
+    text-align: center;
+    width: 33.3333%;
+    float: left;
+    display: block;
+    margin: 30px 20px;
+}
+.three2 p{
+    margin: 15px 0px;
+    color: gray;
+}
+.parent2{
+    padding: 30px;
+    display: flex;
+}
+.three3{
+    width: 33.333%;
+    height: 400px;
+    float: left;
+    border: 1px gray solid;
+    background-color: rgb(247, 246, 246);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px 10px;
+}
+.three3 img{
+    width: 180px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+.bm{
+    margin: 10px 0px;
+}
+.three3 p{
+    color: gray;
+}
+.words{
+    margin: 10px;
+}
+.words a{
+    color: rgb(44, 44, 255);
+}
+.four{
+    width: 24%;
+    float: left;
+    display: block;
+    margin: 20px;
+}
+.four a{
+    color: gray;
+    display: block;
+    margin-top: 5px;
+}
+.four ul{
+    list-style-type: none;
+    margin-top: 5px;
+}
+.parent3{
+    display: flex;
+    padding: 50px;
+}
+.four h2{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.four input{
+    margin: 15px 0px;
+    height: 30px;
+}
+.four span{
+    color: blue;
+}
